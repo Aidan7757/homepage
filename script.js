@@ -62,6 +62,16 @@ function render(cfg) {
 	cv.target = "_blank";
 	contact.appendChild(cv);
 
+	if (cfg.scholar_url) {
+		contact.appendChild(document.createTextNode(" · "));
+		const gs = document.createElement("a");
+		gs.href = cfg.scholar_url;
+		gs.textContent = "Google Scholar";
+		gs.target = "_blank";
+		gs.rel = "noopener";
+		contact.appendChild(gs);
+	}
+
 	el("biography").textContent = cfg.biography;
 	if (cfg.last_updated) el("last_updated").textContent = `Last updated ${cfg.last_updated}`;
 
