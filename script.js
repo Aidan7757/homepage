@@ -63,6 +63,7 @@ function render(cfg) {
 	contact.appendChild(cv);
 
 	el("biography").textContent = cfg.biography;
+	if (cfg.last_updated) el("last_updated").textContent = `Last updated ${cfg.last_updated}`;
 
 	renderExperience("research_experience", cfg.research_experience);
 	renderExperience("professional_experience", cfg.professional_experience);

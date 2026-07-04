@@ -1,3 +1,4 @@
+last_updated: "July 2026"
 position: "Master's Student in Scientific Computing - "
 university: "University of Pennsylvania"
 email: "chadhaa@engineering.upenn.edu"
@@ -20,6 +21,7 @@ papers:
     name: "Predicting the Jet Boundary of a Turbulent Coanda Wall Jet Using Experimental Test Results"
     status: "Conference Manuscript"
     conference: "Mathematical Association of America MD-DC-VA" 
+    authors: "Matthew Caulfield, Aidan H. Chadha, Caroline Lubert, Hasan Hamdan"
     link: "https://drive.google.com/file/d/13G5Ux8xPnof70UPEQNWk3fJSWgNwUbF6/view?usp=drive_link"
 presentations:
   layman:
