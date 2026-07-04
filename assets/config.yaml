@@ -15,7 +15,7 @@ papers:
     link: "https://doi.org/10.1016/j.future.2024.107511"
   stroke_prediction:
     name: "Stroke Prediction Using Clinical and Social Features in Machine Learning" 
-    status: "Manuscript"
+    status: "Preprint"
     authors: "Aidan H. Chadha"
     link: "https://arxiv.org/abs/2501.00048"
   jet_boundary:
