@@ -1,0 +1,166 @@
+// Site data. Edit here. (Was config.yaml; inlined so the page works from file:// with no server.)
+window.CONFIG = {
+  "last_updated": "July 2026",
+  "position": "Master's Student in Scientific Computing - ",
+  "university": "University of Pennsylvania",
+  "email": "chadhaa@engineering.upenn.edu",
+  "scholar_url": "https://scholar.google.com/citations?hl=en&user=dZ275xYAAAAJ",
+  "biography": "Aidan Chadha was an undergraduate at Virginia Tech, working under Dr. Johann Rudi. Currently a master's student in scientific computing at the University of Pennsylvania.",
+  "cv_file": "assets/cv_aidan_chadha.pdf",
+  "aidan_image_file": "assets/aidan_photo.jpg",
+  "papers": {
+    "cgkit": {
+      "name": "CG-Kit: Code Generation Toolkit for Performant and Maintainable Variants of Source Code Applied to Flash-X Hydrodynamics Simulations",
+      "status": "Published",
+      "journal": "Future Generation Computer Systems",
+      "authors": "Johann Rudi, Youngjun Lee, Aidan H. Chadha, Mohamed Wahib, Klaus Weide, Jared P. O'Neal, Anshu Dubey",
+      "link": "https://doi.org/10.1016/j.future.2024.107511"
+    },
+    "stroke_prediction": {
+      "name": "Stroke Prediction Using Clinical and Social Features in Machine Learning",
+      "status": "Preprint",
+      "authors": "Aidan H. Chadha",
+      "link": "https://arxiv.org/abs/2501.00048"
+    },
+    "jet_boundary": {
+      "name": "Predicting the Jet Boundary of a Turbulent Coanda Wall Jet Using Experimental Test Results",
+      "status": "Conference Manuscript",
+      "conference": "Mathematical Association of America MD-DC-VA",
+      "authors": "Matthew Caulfield, Aidan H. Chadha, Caroline Lubert, Hasan Hamdan",
+      "link": "https://drive.google.com/file/d/13G5Ux8xPnof70UPEQNWk3fJSWgNwUbF6/view?usp=drive_link"
+    }
+  },
+  "presentations": {
+    "layman": {
+      "presentation_name": "Autoencoders Applied to Inverse Problem Solution Mapping with Neural Networks",
+      "conference_name": "Layman Prize Competition at Virginia Tech",
+      "date": "May 8th, 2025"
+    },
+    "param_est_one": {
+      "presentation_name": "Parameter Estimation with Dense, Convolutional, and Autoencoder Neural Networks Applied to the FitzHugh-Nagumo ODE",
+      "location": "Mathematical Association of America MD-DC-VA Spring Conference",
+      "date": "April 12th, 2025"
+    },
+    "param_est_two": {
+      "presentation_name": "Parameter Estimation with Dense, Convolutional, and Autoencoder Neural Networks Applied to the FitzHugh-Nagumo ODE",
+      "location": "Mid-Atlantic Math Alliance Regional Conference at UVA",
+      "date": "March 17th, 2025"
+    },
+    "param_est_three": {
+      "presentation_name": "Parameter Estimation with Dense, Convolutional, and Autoencoder Neural Networks Applied to the FitzHugh-Nagumo ODE",
+      "location": "SUMS Conference at JMU",
+      "date": "November 2nd, 2024"
+    },
+    "param_est_four": {
+      "presentation_name": "Parameter Estimation with Dense, Convolutional, and Autoencoder Neural Networks Applied to the FitzHugh-Nagumo ODE",
+      "location": "New Connections 2024 Conference at Duke",
+      "date": "November 1st, 2024"
+    },
+    "cgkit": {
+      "presentation_name": "CGKit: Code Generation Toolkit for Performant and Maintainable Variants of Source Code",
+      "location": "Mathematical Association of America MD-DC-VA Spring Conference",
+      "date": "April 30th, 2024"
+    },
+    "turbulence_one": {
+      "presentation_name": "Predicting the Jet Boundary of a Turbulent Coanda Wall Jet Using Experimental Test Results",
+      "location": "JMU Undergraduate Mathematics Colloqium",
+      "date": "May, 2023"
+    },
+    "turbulence_two": {
+      "presentation_name": "Predicting the Jet Boundary of a Turbulent Coanda Wall Jet Using Experimental Test Results",
+      "location": "Mathematical Association of America MD-DC-VA Spring Conference",
+      "date": "April 29th, 2023"
+    }
+  },
+  "honors_awards": {
+    "outstanding_senior": {
+      "name": "CMDA Oustanding Senior for Excellence in Research Award",
+      "date": "Spring 2026",
+      "description": "Awarded as a recognition of my contributions to research within the CMDA department."
+    },
+    "steeneck": {
+      "name": "Steeneck Experiental Learning Scholarship",
+      "date": "Spring 2025",
+      "description": "Awarded $3000 in scholarship money to fund a summer research program at the Technical University of Munich through the Virginia Tech College of Science."
+    },
+    "cmda_grant_one": {
+      "name": "Computational Modeling and Data Analytics Undergraduate Grant",
+      "date": "Fall 2024",
+      "description": "Awarded $500 in grant money from the Virginia Tech CMDA department for research into Solving Physical Modeling Inverse Problems Using Neural Networks"
+    },
+    "poster_maa": {
+      "name": "Mathematical Association of America | 2nd Place Award for Student Posters",
+      "date": "Spring 2024",
+      "description": "Awarded second place for student posters for the presentation of CGKit: Code Generation Toolkit for Performant and Maintainable Variants of Source Code"
+    },
+    "cmda_grant_two": {
+      "name": "Computational Modeling and Data Analytics Undergraduate Grant",
+      "date": "Spring 2024",
+      "description": "Awarded $835 in grant money from the Virginia Tech CMDA department for continued research into Code Generation Toolkit for Performant and Maintainable Variants of Source Code"
+    },
+    "presentation_mma": {
+      "name": "Mathematical Association of America | 2nd Place Award for Student Presentations",
+      "date": "Spring 2023",
+      "description": "Awarded second place for student presentations for the presentation of Predicting the Jet Boundary of a Turbulent Coanda Wall Jet Using Experimental Test Results"
+    }
+  },
+  "research_experience": {
+    "tum": {
+      "organization": "Technical University of Munich",
+      "roles": [
+        {
+          "title": "Computational Geophysics Visiting Researcher",
+          "dates": "07/2025 - 08/2025",
+          "description": "Built coupled tsunami-landslide simulations in Peano4 with Python and C++ using finite-volume and ADER-DG solvers."
+        }
+      ]
+    },
+    "virginia_tech": {
+      "organization": "Virginia Tech",
+      "roles": [
+        {
+          "title": "Inverse Problem Undergraduate Researcher",
+          "dates": "01/2025 - 06/2026",
+          "description": "Solved inverse problems for the FitzHugh-Nagumo and Hodgkin-Huxley models with PyTorch neural networks at 97%+ accuracy."
+        },
+        {
+          "title": "Machine Learning Dimensionality Reduction Undergraduate Researcher",
+          "dates": "08/2024 - 06/2026",
+          "description": "Built autoencoder methods to compress ODE inputs for inverse-problem networks, reaching 99%+ parameter accuracy."
+        },
+        {
+          "title": "Code Generation Toolkit Undergraduate Researcher",
+          "dates": "09/2023 - 07/2025",
+          "description": "Built a Python code-generation toolkit that cut Flash-X hardware-variant code by 72% with Argonne National Lab."
+        }
+      ]
+    },
+    "jmu": {
+      "organization": "James Madison University",
+      "roles": [
+        {
+          "title": "Jet Breakaway and Fluid Stream Modeling Undergraduate Researcher",
+          "dates": "02/2023 - 05/2023",
+          "description": "Modeled a Coanda wall-jet stream in MATLAB to study jet breakaway, presented at an MAA conference."
+        }
+      ]
+    }
+  },
+  "professional_experience": {
+    "marriott": {
+      "organization": "Marriott International",
+      "roles": [
+        {
+          "title": "Associate Software Engineer",
+          "dates": "08/2024 - 06/2026",
+          "description": "Enhanced the provisioning automation microservice and shipped its UI via Harness to all Marriott developers."
+        },
+        {
+          "title": "Core Platform Software Engineering Intern",
+          "dates": "06/2024 - 08/2024",
+          "description": "Built a SpringBoot WebFlux microservice automating API provisioning, cutting a 30+ action process to 4."
+        }
+      ]
+    }
+  }
+};

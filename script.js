@@ -1,5 +1,4 @@
-// Loads config.yaml and injects it into the page. Requires js-yaml (loaded in index.html).
-// Must be served over http:// (e.g. `python3 -m http.server`) — fetch() is blocked on file://.
+// Injects window.CONFIG (from assets/config.js) into the page. Works from file:// — no server needed.
 
 const el = (id) => document.getElementById(id);
 
@@ -95,12 +94,4 @@ function render(cfg) {
 	}
 }
 
-fetch("assets/config.yaml")
-	.then((r) => r.text())
-	.then((text) => render(jsyaml.load(text)))
-	.catch((e) => {
-		el("main").insertAdjacentHTML(
-			"beforeend",
-			`<p style="color:#b00">Could not load config.yaml — serve this folder over http:// (e.g. <code>python3 -m http.server</code>). ${e}</p>`
-		);
-	});
+render(window.CONFIG);
