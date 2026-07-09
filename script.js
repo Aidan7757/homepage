@@ -47,29 +47,22 @@ function renderExperience(id, section) {
 }
 
 function render(cfg) {
-	el("photo").src = cfg.aidan_image_file;
-	el("position").textContent = `${cfg.position.replace(/\s*-\s*$/, "")}, ${cfg.university}`;
+	if (cfg.aidan_image_file) el("photo").src = cfg.aidan_image_file;
+	el("position").textContent = cfg.position.replace(/\s*-\s*$/, "");
+	el("university").textContent = cfg.university;
 
-	const contact = el("contact");
-	const mail = document.createElement("a");
+	const mail = el("email");
 	mail.href = `mailto:${cfg.email}`;
 	mail.textContent = cfg.email;
-	contact.appendChild(mail);
-	contact.appendChild(document.createTextNode(" · "));
-	const cv = document.createElement("a");
-	cv.href = cfg.cv_file;
-	cv.textContent = "Curriculum Vitae";
-	cv.target = "_blank";
-	contact.appendChild(cv);
 
+	el("cv").href = cfg.cv_file;
+
+	const scholar = el("scholar");
 	if (cfg.scholar_url) {
-		contact.appendChild(document.createTextNode(" · "));
-		const gs = document.createElement("a");
-		gs.href = cfg.scholar_url;
-		gs.textContent = "Google Scholar";
-		gs.target = "_blank";
-		gs.rel = "noopener";
-		contact.appendChild(gs);
+		scholar.href = cfg.scholar_url;
+	} else {
+		scholar.previousSibling.remove(); // drop the " · " separator
+		scholar.remove();
 	}
 
 	el("biography").textContent = cfg.biography;
