@@ -46,12 +46,13 @@ async function main() {
 		attr("photo", "alt", p.name);
 		attr("photo", "title", p.name);
 		set("photo_caption", esc(p.photo_caption));
-		set("research_experience", experience(d.research));
-		set("professional_experience", experience(d.professional));
 		set("papers", rows(selected(d.papers), paperLi));
 		set("presentations", rows(selected(d.presentations), talkLi));
 		set("honors_awards", rows(selected(d.honors), h => honorLi(h, false)));
 		set("last_updated", `Last updated ${esc(p.updated)}`);
+	} else if (page === "experience") {
+		set("research_experience", experience(d.research));
+		set("professional_experience", experience(d.professional));
 	} else if (page === "papers") {
 		set("papers", rows(d.papers, paperLi));
 	} else if (page === "presentations") {
