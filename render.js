@@ -41,6 +41,7 @@ async function main() {
 		set("biography", esc(p.bio));
 		attr("cv", "href", p.cv);
 		attr("scholar", "href", p.scholar);
+		attr("linkedin", "href", p.linkedin);
 		attr("photo", "src", p.photo);
 		attr("photo", "alt", p.name);
 		attr("photo", "title", p.name);
