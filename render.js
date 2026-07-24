@@ -18,8 +18,11 @@ const line = parts => {
 	return `<li><strong>${esc(head)}</strong>` + rest.map(x => `<br>${esc(x)}`).join("") + `</li>`;
 };
 
+const authorLine = a => esc(a).replace(/Aidan H\. Chadha/g, "<u>Aidan H. Chadha</u>");
+
 const paperLi = p => `<li><strong>${esc(p.title)}</strong>` +
-	[p.authors, p.venue].filter(Boolean).map(x => `<br>${esc(x)}`).join("") +
+	(p.authors ? `<br>${authorLine(p.authors)}` : "") +
+	(p.venue ? `<br>${esc(p.venue)}` : "") +
 	(p.link ? `<br><a href="${esc(p.link)}" target="_blank" rel="noopener">Read</a>` : "") + `</li>`;
 
 const talkLi = t => line([t.title, t.venue, t.date]);
