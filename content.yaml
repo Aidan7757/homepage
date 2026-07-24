@@ -55,10 +55,6 @@ papers:
     venue: Future Generation Computer Systems, Volume 160, 2024
     link: https://doi.org/10.1016/j.future.2024.107511
     selected: true
-  - title: Using Code Generation to Enhance Performance and Portability of Supernova Simulations
-    authors: Johann Rudi, Youngjun Lee, Aidan H. Chadha, Mohamed Wahib, Klaus Weide, Jared P. O'Neal, Anshu Dubey
-    venue: APS April Meeting 2024, abstract P06.006
-    link: https://ui.adsabs.harvard.edu/abs/2024APS..APRP06006L/abstract
   - title: Stroke Prediction Using Clinical and Social Features in Machine Learning
     authors: Aidan H. Chadha
     venue: arXiv:2501.00048, 2024
