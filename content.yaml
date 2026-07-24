@@ -52,17 +52,21 @@ professional:
 papers:
   - title: "CG-Kit: Code Generation Toolkit for Performant and Maintainable Variants of Source Code Applied to Flash-X Hydrodynamics Simulations"
     authors: Johann Rudi, Youngjun Lee, Aidan H. Chadha, Mohamed Wahib, Klaus Weide, Jared P. O'Neal, Anshu Dubey
-    venue: Published — Future Generation Computer Systems
+    venue: Future Generation Computer Systems, Volume 160, 2024
     link: https://doi.org/10.1016/j.future.2024.107511
     selected: true
+  - title: Using Code Generation to Enhance Performance and Portability of Supernova Simulations
+    authors: Johann Rudi, Youngjun Lee, Aidan H. Chadha, Mohamed Wahib, Klaus Weide, Jared P. O'Neal, Anshu Dubey
+    venue: APS April Meeting 2024, abstract P06.006
+    link: https://ui.adsabs.harvard.edu/abs/2024APS..APRP06006L/abstract
   - title: Stroke Prediction Using Clinical and Social Features in Machine Learning
     authors: Aidan H. Chadha
-    venue: Preprint
+    venue: arXiv:2501.00048, 2024
     link: https://arxiv.org/abs/2501.00048
     selected: true
   - title: Predicting the Jet Boundary of a Turbulent Coanda Wall Jet Using Experimental Test Results
     authors: Matthew Caulfield, Aidan H. Chadha, Caroline Lubert, Hasan Hamdan
-    venue: Conference Manuscript — Mathematical Association of America MD-DC-VA
+    venue: Mathematical Association of America MD-DC-VA Spring 2023 Conference
     link: https://drive.google.com/file/d/13G5Ux8xPnof70UPEQNWk3fJSWgNwUbF6/view?usp=drive_link
 
 presentations:
